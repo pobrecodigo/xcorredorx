@@ -1,0 +1,292 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+canvas {
+  position: absolute;
+  border: 6px solid blue;
+  z-index: 1;
+  width: 600px;
+  height: 360px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+li {
+  color: magenta;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+a {
+  color: blue;
+  font-size: 40x;
+}
+
+pre {
+  color: white;
+  font-size: 40px;
+}
+
+.wrapper {
+  width: 600px;
+  height: 360px;
+  position: absolute;
+  top: 60%;
+  left: 1%;
+}
+
+#menu {
+  position: absolute;
+  width: 600px;
+  height: 360px;
+  border: 6px solid blue;
+  z-index: 2;
+  text-align: center;
+}
+
+#progress {
+  height: 12%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+#progress-bar {
+  width: 200px;
+  color: blue;
+}
+
+.sound {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 3;
+}
+.sound-on {
+  background-image: url('imgs/soundOn.png');
+  background-repeat: no-repeat;
+}
+.sound-off {
+  background-image: url('imgs/soundOff.png');
+  background-repeat: no-repeat;
+}
+
+#main {
+  display: none;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+#main h1 {
+  color:blue;
+  /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+}
+
+#meio {
+  /*inline*/
+  /*display: none;*/
+  top: 79.9%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline dashed blue;
+  }
+
+#um {
+ /*inline*/
+  display: none;
+  top: 94%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline blue;
+}
+
+#dois { 
+  display: none;
+  top: 61%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline dotted blue;
+}
+
+#tres {
+  display: none;
+  top: 84%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline wavy blue;
+}
+
+#quatro {
+  display: none;
+  top: 64.5%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline dashed blue;
+}
+
+#cinco {
+  /*inline*/
+  display: none;
+  top: 107%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline wavy blue;
+}
+
+#filler{
+  display: none;
+  top: 85.5%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline dotted blue;
+}
+
+#filler2{
+  /*inline*/
+  display: none;
+  top: 75%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline wavy blue;
+}
+
+#seis {
+  display: none;
+  top: 70%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline blue;
+}
+
+#sete {
+  display: none;
+  top: 100%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline dashed blue;
+}
+  
+
+#oito {
+  display: none;
+  top: 90.5%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline dotted blue;
+}
+
+#nove {
+  /*inline*/
+  display: none;
+  top: 125%;
+  left: 0%;
+  text-decoration: underline wavy blue;
+  z-index: 1;
+  position: absolute;
+}
+
+#dez {
+  /*inline*/
+  display: none;
+  top: 55%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline dashed blue;
+}
+
+#onze {
+  display: none;
+  top: 120%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline dashed blue;
+}
+
+#doze {
+  display: none;
+  top: 30%;
+  left: 0%;
+  z-index: 1;
+  position: absolute;
+  text-decoration: underline wavy blue;
+}
+
+#treze {
+  /*display: none;*/
+  top: 20%;
+  left: 65%;
+  z-index: 1;
+  position: absolute;
+}
+
+#quat {
+  display: none;
+  top: 70%;
+  left: 89%;
+  z-index: 1;
+  position: absolute;
+}
+
+.button {
+  display: block;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  color: blue;
+  font-size: 40px;
+}
+
+#credits {
+  display: none;
+  line-height: 30px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+#credits li {
+  padding: 5px 0;
+}
+
+#game-over {
+  font-size: 25px;
+  display: none;
+  text-align: center;
+  top: 50%;
+  left: 45%;
+  z-index: 1;
+  position: absolute;
+}
