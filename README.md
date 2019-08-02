@@ -1,2 +1,3 @@
-# xcorredorx
-@corredor@
+<h1>@corredor@</h1>
+
+<p>@ corredor@ é um <i>runner</i> 2D. Esse tipo de jogo é conhecido pela simplicidade de sua jogabilidade: o personagem começa se locomovendo por um cenário de onde surge obstáculos e a única interação exigida do jogador é que desvie deles. Conforme o avanço no jogo, a dificuldade aumenta. Esse gênero não exige nenhum raciocínio lógico nem criatividade, apenas reflexos rápidos. Em @corredor@, o jogador controla uma @ que muda ciclicamente de fonte enquanto o cenário se move para a direita infinitamente. Ao atingir um determinado número de pontos, um bug no código gerador das plataformas faz com que elas caiam e se acumulem nos cantos da tela.
